@@ -15,12 +15,15 @@ form.addEventListener('submit', async (event) => {
     .catch((err) => console.error(err));
 
   const dataObj = response.results[0];
+  // console.log(dataObj);
 
-  const postImg = document.querySelector('.post__img');
-  postImg.src = dataObj.urls.small;
-  const postUser = document.querySelector('.post__user');
   /*
-    Add an attribution statement below using the
+    Loop through the results[] array. For each result, create a clone of the
+    template and append it to the DOM element with the .container class.
+  */
+
+  /*
+    Add an attribution statement below the image using the
     postUser element and the photographer's name from dataObj
    */
 
