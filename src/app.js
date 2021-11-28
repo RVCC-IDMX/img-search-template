@@ -24,6 +24,10 @@ form.addEventListener('submit', async (event) => {
     postUser element and the photographer's name from dataObj
    */
 
-
-
+  /*
+    Check the description of the post. If it's bot bull and less than 100 characters,
+    add the description from dataObj to the post. If it's more than 100 characters,
+    add the first 100 characters of the description from dataObj to the post followed by
+    an ellipsis (...)
+  */
 });
