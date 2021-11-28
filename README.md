@@ -4,9 +4,9 @@
 
 # Concepts
 
-* API's & Their Secret Keys
-* Postman
-* Netlify Dev
-* Netlify Functions
-* Unsplash's API
-
+- API's & Their Secret Keys
+- Postman
+- Netlify Dev
+- Netlify Functions
+- Unsplash's API
+- Dom cloneNode() method
