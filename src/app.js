@@ -14,8 +14,13 @@ form.addEventListener('submit', async (event) => {
     .then((res) => res.json())
     .catch((err) => console.error(err));
 
-  const dataObj = response.results[0];
-  // console.log(dataObj);
+  /*
+  some sample code
+    const dataObj = response.results[0];
+    const postImg = clone.querySelector('.post__img');
+    postImg.src = dataObj.urls.small;
+    postImg.alt = dataObj.alt_description;
+  */
 
   /*
     Loop through the results[] array. For each result, create a clone of the
