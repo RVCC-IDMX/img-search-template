@@ -4,4 +4,4 @@
 
 [dev]
   publish = "src"
-  port = 8888
+  port = 8885
