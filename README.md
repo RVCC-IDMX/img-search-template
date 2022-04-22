@@ -9,4 +9,4 @@
 - Netlify Dev
 - Netlify Functions
 - Unsplash's API
-- Dom cloneNode() method
+- DOM cloneNode() method
