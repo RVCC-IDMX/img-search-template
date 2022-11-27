@@ -1,13 +1,21 @@
 {
   "env": {
     "browser": true,
+    "node": true,
     "es2021": true
   },
-  "extends": ["airbnb-base", "prettier"],
-  "parser": "@typescript-eslint/parser",
+  "extends": "airbnb-base",
+  "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "plugins": ["@typescript-eslint"],
-  "rules": { "no-console": "off", "no-trailing-spaces": "error" }
+  "rules": {
+    "no-console": "off",
+    "no-trailing-spaces": "error",
+    "semi": "error",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ]
+  }
 }
