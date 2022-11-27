@@ -14,6 +14,8 @@ form.addEventListener('submit', async (event) => {
     .then((res) => res.json())
     .catch((err) => console.error(err));
 
+  console.log(response);
+
   /*
   some sample code
     const dataObj = response.results[0];
