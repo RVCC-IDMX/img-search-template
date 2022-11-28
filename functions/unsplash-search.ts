@@ -1,5 +1,6 @@
 import { Handler } from '@netlify/functions';
 import fetch from 'node-fetch';
+import 'dotenv/config';
 
 const handler: Handler = async (event, context) => {
   const { query } = JSON.parse(event.body || '{}');
